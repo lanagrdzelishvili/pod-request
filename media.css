@@ -95,11 +95,13 @@
         width: 162px;
         height: 46px;
     }
+    #error {
+        bottom: -10px;
+    }
     footer {
         margin: 153px 0 0 39px;
     }
 }
-
 
 
 @media screen and (min-width: 1440px) {

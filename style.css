@@ -135,5 +135,12 @@ header {
     line-height: 14px;
     color: #FB3E3E;
 
+    margin-left: 34px;
+    position: relative;
+    bottom: 65px;
     display: none;
+}
+#submit:hover {
+    background: #B3FFE2;
+    transition: 0.7s;
 }
