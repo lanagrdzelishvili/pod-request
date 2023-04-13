@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+	list-style: none;
+	border: none;
+	text-decoration: none;
+    font-size: 100%;
+	vertical-align: baseline;
+}
+body {
+    font-family: 'Chivo', sans-serif;
+    background: #121725;
+}
+.bg {
+    background-image: url(assets/mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: screen;
+    filter: brightness(0.2);
+    height: 670px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    z-index: 1;
+}
+.text {
+    margin: 57px 24px 33px 24px;
+}
+.text-h1 {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #54E6AF;
+}
+.text-span {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.text-p {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #C2CBE5;
+
+    margin-top: 16px;
+}
+.logos {
+    margin: 0 24px 48px 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+.spotify {
+    width: 56px;
+}
+.apple {
+    width: 47px;
+}
+.google {
+    width: 90px;
+}
+.pocket {
+    width: 80px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+
+    background: #2C344B;
+    border-radius: 28px;
+
+    width: 327px;
+    height: 46px;
+    padding-left: 32px;
+    margin-bottom: 16px;
+}
+#submit {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #121725;
+
+    background: #54E6AF;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+    border-radius: 28px;
+
+    width: 326px;
+    height: 46px;
+}
+#error {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FB3E3E;
+
+    display: none;
+}
