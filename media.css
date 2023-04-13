@@ -98,5 +98,61 @@
     footer {
         margin: 153px 0 0 39px;
     }
-    
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .bg {
+        background-image: url(assets/desktop/image-host.jpg);
+        height: 640px;
+        /* left: 550px; */
+        right: -280px;
+        top: 130px;
+    }
+    header {
+        padding: 102px 0 111px 165px;
+    }
+    main {
+        width: 723px;
+        margin: 10px 0px 0 165px;
+        padding: 70px 0 0 0;
+    }
+    .text {
+        margin: 0 0 40px 0;
+    }
+    .text-h1 {
+        width: 660px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .text-span {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .text-p {
+        line-height: 28px;
+        margin-top: 24px;
+        width: 445px;
+    }
+    .logos {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: flex-start;
+    }
+    #submitt {
+        display: flex;
+        flex-direction: row;
+    }
+    #submit {
+        bottom: 116px;
+        right: 300px;
+    }
+    footer {
+        position: relative;
+        z-index: 1;
+        margin: -70px 0 78px 1210px;
+    }
 }

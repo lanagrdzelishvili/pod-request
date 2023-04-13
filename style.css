@@ -94,6 +94,7 @@ header {
     align-items: center;
 }
 #email {
+    cursor: pointer;
     font-family: 'Chivo';
     font-style: normal;
     font-weight: 700;
@@ -111,6 +112,7 @@ header {
     margin-bottom: 16px;
 }
 #submit {
+    cursor: pointer;
     font-family: 'Chivo';
     font-style: normal;
     font-weight: 700;
